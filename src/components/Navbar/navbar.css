@@ -1,0 +1,31 @@
+.navbar_container {
+  border: 2px solid black;
+  height: 10vh;
+}
+
+.navbar_left_panel,
+.navbar_right_panel {
+  display: flex;
+  flex: 1;
+  border: 2px solid green;
+  height: 100%;
+}
+
+
+
+.navbar_left_panel div,
+.navbar_right_panel div {
+  border: 2px solid red;
+}
+
+.navbar_left_panel img,
+.navbar_right_panel img {
+  width: 50px;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
